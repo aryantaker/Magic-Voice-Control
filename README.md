@@ -1,7 +1,5 @@
 # Magic-Voice-Control
 Lightweight Python-based voice recognition for Harry Potter games. Speak to cast spells and experience the magic hands-free.
-🪄 Magic-Voice-Control
-Lightweight Python-based voice recognition for Harry Potter games. Speak to cast spells and experience the magic hands-free.
 
 🌟 The Story Behind the Magic
 This project wasn't born in a high-tech lab with expensive gear. It was born out of a passion for the Wizarding World and a personal challenge to overcome hardware limitations.
