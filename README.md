@@ -1,5 +1,12 @@
 # Magic-Voice-Control
+🪄 Magic-Voice-Control
 Lightweight Python-based voice recognition for Harry Potter games. Speak to cast spells and experience the magic hands-free.
+
+⚠️ READ THIS FIRST (Priority 0)
+Direct Note from the Developer:
+This code is the result of countless iterations, trials, and errors. To ensure maximum clarity and transparency, every part of the logic is accompanied by simple, clear comments.
+
+We have strictly listed all dependencies in the requirements.txt file because we value your time. The entire project has been refactored and simplified to the most user-friendly state possible, making it "Plug and Play" for every wizard out there.
 
 🌟 The Story Behind the Magic
 This project wasn't born in a high-tech lab with expensive gear. It was born out of a passion for the Wizarding World and a personal challenge to overcome hardware limitations.
@@ -15,6 +22,8 @@ Customizable Spells: Easily map your voice commands to any in-game keybinds.
 
 Minimalist UI: Built with PyQt6 for a clean and simple user experience.
 
+Fuzzy Matching: Smart recognition system that understands you even with slight pronunciation errors.
+
 🛠️ Installation & Setup
 Clone the Repository:
 
@@ -23,7 +32,7 @@ git clone https://github.com/aryantaker/Magic-Voice-Control.git
 Install Dependencies:
 
 Bash
-pip install vosk pyaudio PyQt6 pydirectinput
+pip install -r requirements.txt
 Download the Model:
 
 Download a compatible lightweight model from Vosk Models.
@@ -35,13 +44,17 @@ Run the Wizardry:
 Bash
 python voice_command.py
 📜 How to Cast Spells
-The current version is pre-configured for basic commands. You can modify the update_text function in voice_command.py to add your favorite spells:
+The current version is pre-configured for Harry Potter and the Deathly Hallows – Part 1. You can modify the cast_spell function in voice_command.py or edit spells.txt:
 
-Say "Lumos" to light up your way (Maps to L).
+"Stupefy" -> Basic Attack (Left Click)
 
-Say "Nox" to extinguish the light.
+"Confringo" -> Explosive Blast (Key 2)
 
-Add your own custom elif statements for Expelliarmus, Alohomora, and more!
+"Expulso" -> Rapid Fire (Key 3)
+
+"Protego" -> Shield (Key Q)
+
+"Expecto Patronum" -> Dementor Defense (Key 6)
 
 🤝 Contributing
 This is an open-source project, and I am looking for fellow "wizards" to help expand it!
@@ -52,7 +65,7 @@ Want to improve the UI?
 
 Have a better way to simulate keypresses?
 
-Feel free to fork this repo, create a branch, and submit a Pull Request. Let’s build the ultimate gaming assistant together.
+Feel free to fork this repo, create a branch, and submit a Pull Request.
 
 🏛️ License
 This project is licensed under the MIT License.
